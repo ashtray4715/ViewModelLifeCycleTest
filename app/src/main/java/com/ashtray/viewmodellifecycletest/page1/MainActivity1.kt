@@ -8,7 +8,7 @@ import com.ashtray.viewmodellifecycletest.factory.MyViewModelFactory
 
 class MainActivity1 : AppCompatActivity() {
 
-    private val viewModel: MyViewModel1 by viewModels() {MyViewModelFactory("#1")}
+    private val viewModel: MyViewModel1 by viewModels {MyViewModelFactory("#1")}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
