@@ -10,7 +10,7 @@ class MyViewModel2(private val deviceId: String) : ViewModel() {
     }
 
     fun testFunc() {
-        MyLogger.d(TAG, "test func called")
+        MyLogger.d(TAG, "test func called $deviceId")
     }
 
     override fun onCleared() {
