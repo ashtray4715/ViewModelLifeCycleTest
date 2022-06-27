@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewModelLifeCycleTest">
         <activity
+            android:name=".page2.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".page1.MainActivity1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
